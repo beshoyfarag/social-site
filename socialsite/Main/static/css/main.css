@@ -1,0 +1,24 @@
+/* globel styles */
+body {
+	background-color: #f52fef;
+	margin: 0;
+	
+}
+div.main {
+	background-color: #95720f;
+	margin: 40px;
+	
+}
+div.sidebar {
+	background-color: #f02759;
+	margin: 40px;
+	padding: 5px;
+}
+.sidebartext {
+	text-align: center;
+	font-size: 1.1em;
+}
+p {
+	padding:20px;
+	margin:20px;
+}
