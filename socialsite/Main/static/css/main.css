@@ -1,16 +1,24 @@
+/*color palette
+Primary : ##77ff97
+Secondary : #E6ECF0
+P-Dark : #3ccb68
+P-Light : #adffc9
+Text : #000000
+S-Dark : #b4babe
+*/ 
 /* globel styles */
 body {
-	background-color: #f52fef;
+	background-color: #E6ECF0;
 	margin: 0;
 	
 }
 div.main {
-	background-color: #95720f;
+	background-color: #77ff97;
 	margin: 40px;
 	
 }
 div.sidebar {
-	background-color: #f02759;
+	background-color: #77ff97;
 	margin: 40px;
 	padding: 5px;
 }
@@ -21,4 +29,8 @@ div.sidebar {
 p {
 	padding:20px;
 	margin:20px;
+}
+/*header and footer styles*/
+div.nav-wrapper{
+    background-color: #77ff97;
 }
