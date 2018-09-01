@@ -2,9 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\Main",
-    "\\Main\\templates",
-    "\\Main\\templates\\Main"
+    "\\Main\\static",
+    "\\Main\\static\\css",
+    "\\Main\\templates\\main\\includes",
+    "\\socialsite"
   ],
-  "SelectedNode": "\\Main\\views.py",
+  "SelectedNode": "\\Main\\static\\css\\main.css",
   "PreviewInSolutionExplorer": false
 }

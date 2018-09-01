@@ -1,5 +1,5 @@
 /*color palette
-Primary : ##77ff97
+Primary : #77ff97
 Secondary : #E6ECF0
 P-Dark : #3ccb68
 P-Light : #adffc9
@@ -12,15 +12,27 @@ body {
 	margin: 0;
 	
 }
+nav {
+	
+	max-height:46px;
+}
+div.container {
+	
+	padding: 20px;
+}
 div.main {
+	text-align: center;
 	background-color: #77ff97;
 	margin: 40px;
-	
+	border: 2px groove #3ccb68;
+	box-shadow: #b4babe 10px 10px;
 }
 div.sidebar {
 	background-color: #77ff97;
 	margin: 40px;
 	padding: 5px;
+	border: 2px groove #3ccb68;
+	box-shadow: #b4babe 10px 10px;
 }
 .sidebartext {
 	text-align: center;
@@ -32,5 +44,17 @@ p {
 }
 /*header and footer styles*/
 div.nav-wrapper{
+	margin-bottom:40px;
     background-color: #77ff97;
 }
+footer.page-footer {
+	background-color: #77ff97;
+}
+/* btn styles*/
+button.login {
+	background-color: #E6ECF0;
+}
+button.signup {
+	background-color: #E6ECF0;
+}
+

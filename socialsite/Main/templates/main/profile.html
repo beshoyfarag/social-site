@@ -3,16 +3,22 @@
 Bell-A
 {% endblock %}
 {% block body %}
-<h1 class="flow-text"> your  Bell-A  profile   </h1>
-<p class="flow-text">
-	feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feedfeed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feedfeed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feedfeed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed
-</p>
-<p class="flow-text">
-	feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feedfeed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feedfeed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feedfeed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed
-</p>
-<p class="flow-text">
-	feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feedfeed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feedfeed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feedfeed feed feed feed feed feed feed feed feed feed feed feed feed feed feed feed
-</p>
+<div class="card">
+	<div class="card-image waves-effect waves-block waves-light">
+		{% load static %}
+		<img class="activator" src="{% static 'img/logo.jpg'%}" >
+	</div>
+	<div class="card-content">
+		<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+		<p><a href="#">This is a link</a></p>
+	</div>
+	<div class="card-reveal">
+		<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+		<button class="waves-effect signup btn "> <a href="signup"> signup  </a> </button>
+		<button class="waves-effect login btn  "> <a href="login"> login </a></button>
+	</div>
+</div>
+
 {% endblock %}
 {% block sidebar %}
 
