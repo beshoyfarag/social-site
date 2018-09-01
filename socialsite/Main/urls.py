@@ -10,5 +10,6 @@ urlpatterns = [
    url( r'^feed', views.feed, name='feed'),
    url( r'^friends', views.friends, name='friends'),
    url( r'^profile', views.profile, name='profile'),
+    url( r'^goodie', views.goodie, name='goodie'),
    
 ]

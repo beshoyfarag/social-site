@@ -7,4 +7,6 @@ def friends (request):
 	return render(request,'main/friends.html')
 def profile (request):
 	return render(request,'main/profile.html')
+def goodie (request):
+	return render(request,'main/goodie.html')
 # Create your views here.
