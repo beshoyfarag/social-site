@@ -3,10 +3,10 @@
     "",
     "\\Main",
     "\\Main\\static",
-    "\\Main\\static\\css",
-    "\\Main\\templates\\main\\includes",
+    "\\Main\\templates",
+    "\\Main\\templates\\main",
     "\\socialsite"
   ],
-  "SelectedNode": "\\Main\\static\\css\\main.css",
+  "SelectedNode": "\\Main\\templates\\main\\profile.html",
   "PreviewInSolutionExplorer": false
 }
