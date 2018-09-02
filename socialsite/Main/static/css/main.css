@@ -38,6 +38,9 @@ div.sidebar {
 	text-align: center;
 	font-size: 1.1em;
 }
+.round {
+	border-radius:50%;
+}
 p {
 	padding:20px;
 	margin:20px;
