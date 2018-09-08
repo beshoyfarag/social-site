@@ -1,0 +1,12 @@
+==============STEPS TO PUSH==============
+1. Git status
+2. Git add -A
+3. Git commit -m "type messege here"
+4. Git push orgin master
+
+==============STEPS TO PULL===============
+1. Git pull -v orgin master
+
+==============STEPS TO RUN SERVER============
+1. manage.py runserver
+
