@@ -19,5 +19,6 @@ from django.conf.urls import include ,url
 
 urlpatterns = [
     url(r'^',include('Main.urls')),
+    url(r'^feed/',include('feeds.urls')),
     url(r'^admin/', admin.site.urls),
 ]

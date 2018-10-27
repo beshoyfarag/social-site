@@ -1,0 +1,34 @@
+{% extends "main/base.html" %}
+{% block title %}
+{{post.heading}}
+{% endblock %}
+{% block body %}
+
+<h1 class="flow-text">{{post.title}}</h1>
+
+<h6 class="flow-text">posted on :  {{ post.date }} by : {{ post.user }}   </h6>
+
+<br>
+
+
+<br>
+
+<div class="postbody">
+
+    <p class="flow-text"> {{ post.body |safe }} </p>
+
+    <br>
+
+    <center>
+
+    <img class="postimg" src="{{post.img_url}}">
+
+</center>
+
+</div>
+
+
+{% endblock %}
+{% block sidebar %}
+
+{% endblock %}

@@ -60,4 +60,8 @@ button.login {
 button.signup {
 	background-color: #E6ECF0;
 }
+.scroll {
+  overflow: scroll;
+
+}
 
