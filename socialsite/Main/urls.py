@@ -17,6 +17,7 @@ urlpatterns = [
    url(r'^login/$',auth_views.LoginView.as_view(template_name='main/login.html')) ,
    
 
-  
+
    
+
 ]

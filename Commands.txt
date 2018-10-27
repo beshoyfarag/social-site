@@ -10,3 +10,9 @@
 ==============STEPS TO RUN SERVER============
 1. manage.py runserver
 
+==============CHANGE DIRECTORY================
+1. Copy the directory
+2. type 'cd' in git cmd
+3. paste the copied directory
+4. THen ENTER.
+
