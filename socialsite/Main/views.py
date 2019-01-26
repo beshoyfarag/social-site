@@ -4,7 +4,7 @@ from django.contrib.auth import login, authenticate
 def index (request):
 	return render(request,'main/Index.html')
 def feed (request):
-	return render(request,'main/feeds.html')
+	return render(request,'feeds/feeds.html')
 def friends (request):
 	return render(request,'main/friends.html')
 def profile (request):
