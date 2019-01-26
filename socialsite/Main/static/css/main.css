@@ -64,4 +64,26 @@ button.signup {
   overflow: scroll;
 
 }
+.card {
+
+
+
+  flex-direction: row;
+
+  width: 100%;
+
+}
+
+.flow-text {
+
+  margin: 1px;
+
+  word-wrap: normal ;
+
+}
+.wordwarp {
+    clear: both;
+    display: block;
+     word-wrap: break-word;
+}
 
