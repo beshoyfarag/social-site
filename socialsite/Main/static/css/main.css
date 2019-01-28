@@ -12,10 +12,7 @@ body {
 	margin: 0;
 	
 }
-nav {
-	
-	max-height:46px;
-}
+
 div.container {
 	
 	padding: 20px;
@@ -46,11 +43,13 @@ p {
 	margin:20px;
 }
 /*header and footer styles*/
+
 div.nav-wrapper{
 	margin-bottom:40px;
     background-color: #77ff97;
 }
 footer.page-footer {
+    box-shadow: 50px 10px 7px 12px #b4babe;
 	background-color: #77ff97;
 }
 /* btn styles*/
@@ -86,4 +85,5 @@ button.signup {
     display: block;
      word-wrap: break-word;
 }
+/* Header and footer */
 
