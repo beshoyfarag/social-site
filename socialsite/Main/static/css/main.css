@@ -78,7 +78,7 @@ button.signup {
 
   margin: 1px;
 
-  word-wrap: normal ;
+  word-wrap: break-word ;
 
 }
 .wordwarp {
