@@ -21,4 +21,5 @@ urlpatterns = [
     url(r'^',include('Main.urls')),
     url(r'^feed/',include('feeds.urls')),
     url(r'^admin/', admin.site.urls),
+    url(r'^humans/',include('humanstxt.urls')),
 ]

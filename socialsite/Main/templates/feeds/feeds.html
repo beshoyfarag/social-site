@@ -2,7 +2,11 @@
 {% block title %}
 pi
 {% endblock %}
+{% block header%}  
+{% include "feeds/includes/feed-header.html" %}
+{%endblock%}
 {% block body %}
+
 <h1 class="flow-text"> your pi  feed  </h1>
 
  {% for post in object_list %}

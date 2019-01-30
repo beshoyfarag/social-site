@@ -14,7 +14,7 @@ urlpatterns = [
    url( r'^profile', views.profile, name='profile'),
    url( r'^goodie', views.goodie, name='goodie'),
    url(r'^signup', views.signup, name='signup'),
-   url(r'^login/$',auth_views.LoginView.as_view(template_name='main/login.html')) ,
+   url(r'^login/',auth_views.LoginView.as_view(template_name='main/login.html')) ,
    
 
 
