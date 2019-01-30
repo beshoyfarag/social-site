@@ -1,0 +1,32 @@
+{% extends "main/base.html" %}
+{% block title %}
+pi
+{% endblock %}
+{% block header%}  
+{% include "main/includes/header.html" %}
+{%endblock%}
+{% block body %}
+<h1class="flow-text" >Category list</h1>
+<center>
+    {% for Category in object_list %}
+   
+    <time datetime="{{ Category.date|date:"Y-m-dTH:i" }}">
+    <h5 class="flow-text"> Category # :{{ Category.id}}<a href="/blog/Category/{{Category.slug}}">  {{Category.name}} </a></h5>
+</time>
+
+    {%endfor%}  
+    
+</center>
+{%endblock%}
+{%block script%}
+
+<script>
+    
+ 
+
+    
+
+        
+   
+       </script>
+{%endblock%}

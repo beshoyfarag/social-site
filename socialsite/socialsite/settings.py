@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'Main',
     'humanstxt',
     'feeds',
+    'blog',
     
 ]
 
