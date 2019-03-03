@@ -5,6 +5,7 @@ P-Dark : #3ccb68
 P-Light : #adffc9
 Text : #000000
 S-Dark : #b4babe
+	cubic-bezier(.39,.01,.39,1)
 */ 
 /* globel styles */
 body {
@@ -19,18 +20,31 @@ div.container {
 	padding: 20px;
 }
 div.main {
+	transform: none;
+	transition: transform 1s;
 	text-align: center;
 	background-color: #77ff97;
 	margin: 40px;
 	border: 2px groove #3ccb68;
 	box-shadow: #b4babe 10px 10px;
 }
-div.sidebar {
-	background-color: #77ff97;
-	margin: 40px;
-	padding: 5px;
-	border: 2px groove #3ccb68;
-	box-shadow: #b4babe 10px 10px;
+	div.main:hover {
+		transform: rotateY(360deg);
+	}
+	div.sidebar {
+		transform: none;
+		transition: transform 1s;
+		background-color: #77ff97;
+		margin: 40px;
+		padding: 5px;
+		border: 2px groove #3ccb68;
+		box-shadow: #b4babe 10px 10px;
+		transition-timing-function: cubic-bezier(.39,.01,.39,1);
+	}
+	div.sidebar:hover {
+		transform: rotateZ(360deg);
+	
+	}
 }
 .sidebartext {
 	text-align: center;
@@ -44,16 +58,25 @@ p {
 	margin:20px;
 }
 /*header and footer styles*/
-
-div.nav-wrapper{
-	margin-bottom:40px;
-    background-color: #77ff97;
+nav {
+	background-color:
+}
+div.nav-wrapper {
+	margin-bottom: 40px;
+	animation-name: fly-pop-in;
+	animation-timing-function: cubic-bezier(.39,.01,.39,1);
+	animation-duration: 1.7s;
+	animation-fill-mode:both;
 }
 footer.page-footer {
-    box-shadow: 50px 10px 7px 12px #b4babe;
-background: linear-gradient(rgba(119,255,151,1),rgba(60,203,104,0.5)), url(https://www.desktop-background.com/download/o/2010/06/06/28789_ultra-hd-4k-textures-wallpapers-desktop-backgrounds-hd_3840x2400_h.jpg)no-repeat, fixed ;
-	background-size : cover ;
-
+	animation-name: fly-pop-in;
+	animation-timing-function: cubic-bezier(.39,.01,.39,1);
+	animation-duration: 1.7s;
+	animation-delay:2s;
+	animation-fill-mode: both;
+	box-shadow: 50px 10px 7px 12px #b4babe;
+	background: linear-gradient(rgba(119,255,151,1),rgba(60,203,104,0.5)), url(https://www.desktop-background.com/download/o/2010/06/06/28789_ultra-hd-4k-textures-wallpapers-desktop-backgrounds-hd_3840x2400_h.jpg)no-repeat, fixed;
+	background-size: cover;
 	background-color: #77ff97;
 }
 /* btn styles*/
@@ -91,6 +114,28 @@ button.signup {
 }
 /* Header and footer */
 
-/* anamations */ 
-@keyframes 
+/* anamations */
+@keyframes fly-pop-in {
+	0% {
+		width: 0%;
+		height: 0%;
+		background-color: #000000;
+	}
+	25% {
+		width: 25%;
+		height: 25%;
+		background-color: #E6ECF0;
+	}
+	50% {
+		width: 50%;
+		height: 50%;
+		background-color: #3ccb68;
+	}
+	100% {
+		width: 100%;
+		height: 100%;
+		background-color: #77ff97;
+	}
+
+}
 
